@@ -20,6 +20,7 @@ a {
 }
 
 
+
 /* NavBar =================================================================== */
 
 .navbar {
@@ -419,7 +420,7 @@ a {
 	width: 100%;
 	height: 100%;
 
-	padding: 0 0 100px 0;
+	padding: 0 20px 100px 20px;
 
 	background: #000;
 	background-image: url(../imgs/bgMain.png);
@@ -620,6 +621,12 @@ footer {
 .footer-icon {
 	margin: 0 20px 15px 0;
 }
+
+.footer-developer {
+	padding: 30px 0 0 0;
+	margin: 0 0 0 30px;
+}
+
 
 .footer-logos {
 	margin: 0 0 25px 0;
@@ -833,10 +840,11 @@ footer {
 .event,
 .about,
 .contacts {
-	padding: 50px 0 100px 0;
+	padding: 50px 20px 100px 20px;
 	background: #080808;
 	background-image: url(../imgs/bgMain.png);
 	color: #fff;
+	z-index: 1;
 }
 
 .event-items,
@@ -845,6 +853,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 10001;
 }
 
 .event-info {
@@ -1008,6 +1017,10 @@ footer {
 	.event-items {
 		flex-wrap: wrap;
 	}
+
+	.contacts-items {
+		flex-direction: column;
+	}
 }
 
 @media screen and (max-width: 1010px) {
@@ -1148,6 +1161,13 @@ footer {
 
 }
 
+@media screen and (max-width: 625px) {
+	iframe {
+		width: 450px;
+		height:	450px;
+	}
+}
+
 @media screen and (max-width: 590px) {
 	.modal-title {
 		font-size: 14px;
@@ -1173,10 +1193,6 @@ footer {
 	.footer-brands {
 		display: flex;
 		justify-content: center;
-	}
-
-	.footer-brand {
-		display: none;
 	}
 
 	.footer-logos {
@@ -1210,6 +1226,16 @@ footer {
 	
 	.main__info-texts input {
 		max-width: 350px;
+	}
+
+	footer {
+		height: 350px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	iframe {
+		width: 300px;
 	}
 }
 
