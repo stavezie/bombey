@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slickCarousel/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/slickCarousel/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="navbar-top">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="assets/imgs/mainLogo.png" alt="" class="navbar__logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbarToggleExternalContent">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./promotions.html">Акції</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./events.html">Події</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">Про нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacts.html">Контакти</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="navbar-buttons">
+                    <button class="nav-button yellow-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Забронювати доріжку
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="main__home">
+        <div class="section-container">
+            <div class="main__home-items">
+                <h1>
+                    Бомбей боулінг клуб
+                </h1>
+                <button class="home-button yellow-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <span class="home-button-img"><img src="assets/imgs/person-throwing-bowling-ball1.png"
+                            alt=""></span>
+                    Забронювати доріжку
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="main__about">
+        <div class="section-container">
+            <div class="main__about-container">
+                <div class="main__about-left">
+                    <h1 class="main__about-title title">
+                        Бомбей - це
+                    </h1>
+                    <div class="main__about-texts">
+                        <ul class="main__about-list">
+                            <li class="main__about-link">
+                                <div>
+                                    <img src="assets/imgs/Ball.png" alt="" class="main__about__link-img">
+                                </div>
+                                <p>
+                                    Найбільший боулінг-центр <br>
+                                    на сході України —&nbsp;<span>2 100 м2</span>!
+                                </p>
+                            </li>
+                            <li class="main__about-link">
+                                <div>
+                                    <img src="assets/imgs/Ball.png" alt="" class="main__about__link-img">
+                                </div>
+                                <p>
+                                    <span>16</span>&nbsp;професійних доріжок боулінгу
+                                </p>
+                            </li>
+                            <li class="main__about-link">
+                                <div>
+                                    <img src="assets/imgs/Ball.png" alt="" class="main__about__link-img">
+                                </div>
+                                <p>
+                                    <span>6</span>&nbsp;доріжок, оснащених спеціальними бортами, для
+                                    маленьких гравців
+                                </p>
+                            </li>
+                            <li class="main__about-link">
+                                <div>
+                                    <img src="assets/imgs/Ball.png" alt="" class="main__about__link-img">
+                                </div>
+                                <p>
+                                    Досвідчені інструктори, які пояснять правила <br>
+                                    новачкам і розкриють маленькі хитрощі
+                                    боулерів.
+                                </p>
+                            </li>
+                            <li class="main__about-link">
+                                <div>
+                                    <img src="assets/imgs/Ball.png" alt="" class="main__about__link-img">
+                                </div>
+                                <p>
+                                    Ввічливий і уважний обслуговуючий персонал.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main__about-right">
+                    <img src="./assets/imgs/mainImg1.png" alt="" class="main__about-image">
+                </div>
+            </div>
+            <div class="main__about-advantages">
+                <div class="main__advantages-item">
+                    <img src="./assets/imgs/Advantages/food.png" alt="">
+                    <div class="main__advantages-text">Кафе/Бар</div>
+                </div>
+                <div class="main__advantages-item">
+                    <img src="./assets/imgs/Advantages/billiard.png" alt="">
+                    <div class="main__advantages-text">Більярд</div>
+                </div>
+                <div class="main__advantages-item">
+                    <img src="./assets/imgs/Advantages/arcade machine.png" alt="">
+                    <div class="main__advantages-text">Ігрові апарати</div>
+                </div>
+                <div class="main__advantages-item">
+                    <img src="./assets/imgs/Advantages/ping pong.png" alt="">
+                    <div class="main__advantages-text">Настільний теніс</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main__promotions">
+        <div class="section-container">
+            <div class="main__promotions-items">
+                <h1 class="title main__promotions-title">
+                    Акції
+                </h1>
+                <img src="./assets/imgs/LineYellow.png" alt="" class="main__promotions-image">
+                <button class="yellow-btn main__promotions-btn">Усі акції</button>
+            </div>
+            <div class="slider">
+                <div>
+                    <img src="./assets/imgs/Carousel/1.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/2.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/3.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/1.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/2.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/3.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/1.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/2.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/3.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/1.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/2.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/3.png" alt="" class="slider-img">
+                </div>
+
+
+
+            </div>
+
+
+    </section>
+
+    <section class="main__promotions">
+        <div class="section-container">
+            <div class="main__promotions-items">
+                <h1 class="title main__promotions-title">
+                    Події
+                </h1>
+                <img src="./assets/imgs/LineYellow.png" alt="" class="main__promotions-image">
+                <button class="yellow-btn main__promotions-btn">Усі події</button>
+            </div>
+            <div class="slider">
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+                <div>
+                    <img src="./assets/imgs/Carousel/4.png" alt="" class="slider-img">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="main__rate">
+        <div class="section-container">
+            <h1 class="title">Тарифи</h1>
+            <div class="rate__table">
+                <div class="rate__day rate__item">
+                    <h4 class="line">День тижня</h4>
+                    <p>Понеділок — Середа</p>
+                    <p>Четвер — П’ятниця</p>
+                    <p>Субота — Неділя</p>
+                </div>
+                <div class="rate__time rate__item">
+                    <h4 class="line">Час</h4>
+                    <p>з 14:00 до 22:00</p>
+                    <p>з 13:00 до 22:00</p>
+                    <p>з 12:00 до 22:00</p>
+                </div>
+                <div class="rate__price rate__item">
+                    <h4>Ціна за годину</h4>
+                    <p>120₴</p>
+                    <p>120₴</p>
+                    <p>120₴</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main__info">
+        <div class="section-container">
+            <div class="main__info-texts">
+                <div class="texts-div">
+                    <h1 class="title info__title">залишилися питання?</h1>
+                    <p>Наші фахівці зв’яжуться з вами</p>
+                </div>
+
+                <form action="">
+                    <div class="form-div">
+                        <h4>Ім’я</h4>
+                        <input type="text" placeholder="Тарас" class="input">
+
+                        <h4>Телефон</h4>
+                        <input type="text" placeholder="+38 (012) 345 67 89" class="input">
+                        <button type="submit" class="info-btn yellow-btn">Замовити дзвінок</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="section-container">
+            <div class="footer-items">
+                <div class="footer-item footer-brands">
+                    <div class='footer-brand'>
+                        <img src="./assets/imgs/mainLogo.png" alt="" class="footer-logos">
+                    </div>
+                    <div>
+                        <img src="./assets/imgs/Digital Lab.png" alt="" class="footer-logos">
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <ul class="footer-list footer__nav-list">
+                        <li class="footer-link footer-text">
+                            <a href="#">Акції</a>
+                        </li>
+                        <li class="footer-link footer-text">
+                            <a href="#">Події</a>
+                        </li>
+                        <li class="footer-link footer-text">
+                            <a href="#">Про нас</a>
+                        </li>
+                        <li class="footer-link footer-text">
+                            <a href="#">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <ul class="footer-list">
+                        <li class="footer-link">
+                            <a href="tel:+380673323023">
+                                <div class='footer-icon'>
+                                    <img src="./assets/imgs/icons/phone-call.png" alt="">
+                                </div>
+                                +38 067 332 30 23
+                            </a>
+                        </li>
+                        <li class="footer-link">
+                            <a href="mailto:art@mrpl-portcity.org">
+                                <div class='footer-icon'>
+                                    <img src="./assets/imgs/icons/email.png" alt="">
+                                </div>
+                                art@mrpl-portcity.org
+                            </a>
+                        </li>
+                        <li class="footer-link">
+                            <a href="https://goo.gl/maps/HqvRH4FAgR2A1V4t9">
+                                <div class='footer-icon'>
+                                    <img src="./assets/imgs/icons/pin.png" alt="">
+                                </div>
+                                Запорізьке шосе 2, ТРЦ «ПортCity», 2 поверх.
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <ul class="footer-list">
+                        <li class="footer-link facebook-link">
+                            <a href="#"><img src="./assets/imgs/icons/facebook.png" alt=""></a>
+                        </li>
+                        <li class="footer-link instagram-link">
+                            <a href="#"><img src="./assets/imgs/icons/instagram.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Бронювання доріжки</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-info">
+                        <form action="" class="modal-form">
+                            <div class="modal__info-item">
+                                <h4 class="modal-text">Ім’я</h4>
+                                <input type="text" placeholder="Тарас" class="modal-input">
+                            </div>
+
+                            <div class="modal__info-item">
+                                <h4 class="modal-text">Телефон</h4>
+                                <input type="text" placeholder="+38 (012) 345 67 89" class="modal-input">
+                            </div>
+                            <div class="modal__info-item modal__info-spec">
+                                <div class="modal__spec-item">
+                                    <h4 class="modal-text">Дата</h4>
+                                    <input type="text" placeholder="16.06" class="modal-input modal__input-spec">
+                                </div>
+                                <div class="modal__spec-item">
+                                    <h4 class="modal-text">Час</h4>
+                                    <input type="text" placeholder="12:00" class="modal-input modal__input-spec">
+                                </div>
+                            </div>
+                            <div class="modal-button">
+                                <button type="submit" class="modal-btn info-btn yellow-btn">Замовити дзвінок</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+
+
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
