@@ -771,8 +771,20 @@ footer {
 }
 
 .modal-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 50px;
+	width: 100%;
+	max-width: 416px;
 	margin: 0 0 75px 0;
 	position: relative;
+	font-size: 24px;
+}
+
+.modal-btn p {
+	margin: 0;
 }
 
 .modal-body::after {
